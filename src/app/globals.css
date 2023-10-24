@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply font-sans text-neutral-700	;
+    padding-top: 120px;
+  }
+  body::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px 0px 100%;
+    background-color: rgb(120, 216, 183);
+    width: 30%;
+    height: 500px;
+    transform: translate(0px, 20px) scale(1.2);
+    z-index: -1;
+    opacity: 0.2;
+    filter: blur(80px);
+  }
+
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md border-2 font-semibold	;
+  }
+  .btn-primary {
+    @apply bg-white text-neutral-700 border-emerald-500 ;
+  }
+  .btn-secondary {
+    @apply bg-neutral-700 text-neutral-50 border-teal-900;
+  }
+}
