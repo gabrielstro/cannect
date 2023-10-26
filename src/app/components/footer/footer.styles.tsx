@@ -3,7 +3,7 @@ import { cva } from "class-variance-authority";
 export const footerStyles = cva([
   'flex',
   'flex-col',
-  'bg-emerald-700',
+  'bg-[#21976e]',
   'p-12',
   'text-white',
 ])
@@ -15,4 +15,5 @@ export const footerContainerStyles = cva([
   'items-center',
   'md:align-baseline',
   'gap-14',
+  'm-auto',
 ])

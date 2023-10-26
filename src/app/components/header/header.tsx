@@ -12,12 +12,12 @@ export default function Header({...props}) {
     <header {...props} className={headerStyles()}>
       <Image src={'/cannect.svg'} alt={""} width={160} height={26}/>
       <div className="lg:flex gap-3 hidden">
-        <a href="/">produtos</a>
-        <a href="/">agende sua consulta</a>
-        <a href="/">tratamentos</a>
-        <a href="/">para profissionais de saúde</a>
-        <a href="/">para parceiros</a>
-        <a href="/">blog</a>
+        <a href="#">produtos</a>
+        <a href="#">agende sua consulta</a>
+        <a href="#">tratamentos</a>
+        <a href="#">para profissionais de saúde</a>
+        <a href="#">para parceiros</a>
+        <a href="#">blog</a>
         <div className="actions">
           <a href="/login">Login</a>
         </div>
@@ -33,12 +33,12 @@ export default function Header({...props}) {
                 <FontAwesomeIcon icon={faX} size="2xl" />
               </span>
             </div>
-            <p>produtos</p>
-            <p>agende sua consulta</p>
-            <p>tratamentos</p>
-            <p>para profissionais da saude</p>
-            <p>para parceiros</p>
-            <p>blog</p>
+            <a href="#">produtos</a>
+            <a href="#">agende sua consulta</a>
+            <a href="#">tratamentos</a>
+            <a href="#">para profissionais da saude</a>
+            <a href="#">para parceiros</a>
+            <a href="#">blog</a>
           </aside>
         }
       </div>
