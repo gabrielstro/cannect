@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { cardInfoStyles } from "./cardInfo.styles";
 
-export default function cardInfo({title, text, icon, ...props }: { title: string, text: string, icon: IconProp, props?: any } ) {
+export default function cardInfo({title, text, icon }: { title: string, text: string, icon: IconProp } ) {
   return (
     <div className="flex gap-6">
       <div className={cardInfoStyles()}>

@@ -25,16 +25,16 @@ export default function Footer({...props}) {
           <p>faleconosco@cannect.com.br</p>
           <h3 className="text-xl font-semibold my-10">Redes sociais:</h3>
           <div className="flex gap-6">
-            <a href="#"><Image src={'/facebook.svg'} alt={""} width={35} height={42}/></a>
-            <a href="#"><Image src={'/instagram.svg'} alt={""} width={35} height={42}/></a>
-            <a href="#"><Image src={'/twitter.svg'} alt={""} width={35} height={42}/></a>
-            <a href="#"><Image src={'/linkedin.svg'} alt={""} width={35} height={42}/></a>
-            <a href="#"><Image src={'/youtube.svg'} alt={""} width={35} height={42}/></a>
+            <a href="#"><Image src={'/facebook.svg'} alt={"Facebook"} width={35} height={42}/></a>
+            <a href="#"><Image src={'/instagram.svg'} alt={"Instagram"} width={35} height={42}/></a>
+            <a href="#"><Image src={'/twitter.svg'} alt={"Twitter"} width={35} height={42}/></a>
+            <a href="#"><Image src={'/linkedin.svg'} alt={"LinkedIn"} width={35} height={42}/></a>
+            <a href="#"><Image src={'/youtube.svg'} alt={"Youtube"} width={35} height={42}/></a>
           </div>
 
         </div>
       </div>
-      <div className="mt-14 flex gap-10">
+      <div className="mt-14 flex gap-10 justify-center">
         <div>
           <p>CANNECT SERVIÇOS DE INTERNET S/A - CNPJ: 41.418.943/0001-16 <br />  R. Dr. Renato Paes de Barros, 33 - Itaim Bibi, São Paulo - SP, 04530-000</p>
         </div>

@@ -1,6 +1,6 @@
 import { cva } from "class-variance-authority";
 
-export const mainSectionStyles = cva([
+export const homeSectionStyles = cva([
   'px-8',
   'py-14',
   'lg:py-16',
